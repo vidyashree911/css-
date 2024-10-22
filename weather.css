@@ -1,0 +1,48 @@
+App {
+    text-align: center;
+    margin-top: 50px;
+    background-image:url(../public/pexels-tahir-shaw-50609-186980.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the whole
+    container */
+    background-position: center; /* Centers the image */
+    height: 500px; /* Set your desired height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    }
+    .app-name{
+    color: white;
+    }
+    input {
+    padding: 10px;
+    margin-right: 10px;
+    }
+    button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #0056b3;
+    }
+    h2 {
+    margin-top: 20px;
+    color: white;
+    }
+    p{
+    color: white;
+    }
+    .date{
+    color: white;
+    }
+    .deg{
+    color: white;
+    }
+    .icon-temp{
+    color: white;
+    font-size: larger;
+    }
